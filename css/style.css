@@ -1,0 +1,72 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.bg-color {
+    background-color: #264653;
+}
+
+/* banner style */
+
+.banner-small-text {
+    font-weight: 300px;
+    font-size: 14px;
+}
+.banner-head-text {
+    font-weight: 700px;
+    line-height: 72px;
+    
+}
+.banner-button {
+    background-color: #E76F51;
+    color: white;
+    width: 168px;
+    height: 44px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* grayscale image style */
+
+.img-gray {
+    filter: grayscale(100%);
+  }
+
+
+/* card styles */
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+.card-text {
+    color: #6C6C6C;
+}
+.fa-star {
+    color: #E77C40;
+    font-size: 22px;
+}
+
+/* FAQ styles */
+
+.faq-ques {
+    font-size: 1rem;
+    color: #383838;
+    fon
+}
+.faq-ques:hover {
+    color: #383838;
+}
+.faq-ans {
+    color: #6C6C6C;
+}
+
+/* map style */
+
+.map {
+    filter: grayscale(100%) invert(95%);
+}
